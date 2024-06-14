@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <section class="d-flex" style="padding-top: 50px;">
+        <article class="w-50 d-flex flex-column justify-content-center">
+            <h3>Welcome to</h3>
+            <h1>Mushko Tensei Wiki Page</h1>
+            <h4>Join us to explore more...</h4>
+            <a href="#"><button type="button" class="btn btn-danger">Join Now</button></a>
+        </article>
+        <figure class="w-50">
+            <img class="rounded" src="{% static 'img/mushko_cover.jfif' %}">
+        </figure>
+    </section>
+{% endblock content %}
